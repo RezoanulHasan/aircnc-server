@@ -1,74 +1,79 @@
 [
+  
   {
     "id": 1,
-    "location": "Sidemen, Bali",
-    "image": "https://a0.muscache.com/im/pictures/4f70b681-a792-4530-8c52-f2a8d262942d.jpg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 456,
-    "category": "Beach",
-    "region": "Asia",
+    "location": "Australia,Queensland,",
+    "image": "https://gringajourneys.com/wp-content/uploads/2020/09/Rue-Cremieux-colorful-street-1024x768.jpg",
+    "dateRange": "Jan 1, 2024 - Jan 15, 2024",
+    "price": 400,
+    "category": "Lux",
+    "region": "Australia",
     "type": "home",
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "house"
+    "property": "Apartment"
   },
   {
     "id": 2,
-    "location": "Abiansemal, Bali",
-    "image": "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 513,
-    "category": "Windmills",
-    "region": "Asia",
-    "type": "room",
-    "bedroom": 3,
-    "bed": 3,
-    "bathroom": 2,
-    "property": "apartment"
-  },
-  {
-    "id": 3,
-    "location": "Kecamatan Ubud, Bali",
-    "image": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46761225/original/11058c0d-fac8-4035-8f16-8b3abe7441cd.jpeg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 456,
-    "category": "Modern",
-    "region": "Asia",
-    "type": "room",
-    "bedroom": 5,
-    "bed": 4,
-    "bathroom": 3,
-    "property": "guesthouse"
-  },
-  {
-    "id": 4,
-    "location": "Koh Samui, Thailand",
-    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-820950793239599563/original/d5c1f686-f06a-4b65-9f55-32e19dc0b23f.jpeg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 513,
-    "category": "Countryside",
-    "region": "Asia",
+    "location": "Australia,Victoria",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/03/85/af/crown-towers-perth.jpg?w=1200&h=-1&s=1",
+    "dateRange": "Feb 15, 2024 - Feb 20, 2024",
+    "price": 750,
+    "category": "Castles",
+    "region": "Australia",
     "type": "home",
     "bedroom": 5,
     "bed": 4,
-    "bathroom": 4,
-    "property": "house"
+    "bathroom": 3,
+    "property": "Apartment"
+  },
+
+  {
+    "id": 3,
+    "location": "Australia,Tasmania",
+    "image": "https://static.mansionglobal.com/production/media/article-images/f35023536f87d254d24bbfc4ab6b5195/large_033_Open2view_ID536941-68_Napoleon_St.jpg",
+    "dateRange": "Nov 25, 2025 - Nov 30, 2025",
+    "price": 500,
+    "category": "Lake",
+    "region": "Australia",
+    "type": "room",
+    "bedroom": 7,
+    "bed": 4,
+    "bathroom": 5,
+    "property": "House"
+  } , 
+  {
+    "id": 4,
+    "location": "Australia, Adelaide",
+    "image": "https://assets.atdw-online.com.au/images/757b73ff0a0b7a7fbb948d2beae714bc.jpeg?rect=114%2C0%2C1820%2C1365&w=1600&h=1200&rot=360&q=eyJ0eXBlIjoibGlzdGluZyIsImxpc3RpbmdJZCI6IjYzNTlmZGY3MTBkZTc2ZGI3ZTkxNjZiYSIsImRpc3RyaWJ1dG9ySWQiOiI1NmIxZWI5MzQ0ZmVjYTNkZjJlMzIwZTMiLCJhcGlrZXlJZCI6IjU2YjFmNjNmMGNmMjEzYWQyMGRlZGVjYSJ9",
+    "dateRange": "May 15, 2024 - May 20, 2024",
+    "price": 350,
+    "category": "Castles",
+    "region": "Australia",
+    "type": "room",
+    "bedroom": 2,
+    "bed": 3,
+    "bathroom": 2,
+    "property": "House"
   },
   {
     "id": 5,
-    "location": "Surat Thani, Thailand",
-    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-820954888871612167/original/f37e01a9-cb1a-446d-be7e-c1d62d1f1c23.jpeg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 456,
-    "category": "Camping",
-    "region": "Asia",
+    "location": "Australia, Brisbane",
+    "image": "https://images.trvl-media.com/lodging/6000000/5210000/5208800/5208769/fbdee52d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+    "dateRange": "Apr 15, 2024 - Apr 20, 2024",
+    "price": 400,
+    "category": "Skiing",
+    "region": "Australia",
     "type": "room",
-    "bedroom":3 ,
-    "bed": 3,
-    "bathroom": 2,
-    "property": "apartment"
+    "bedroom": 3,
+    "bed": 4,
+    "bathroom": 3,
+    "property": "House"
   },
+
+
+
   {
     "id": 6,
     "location": "Khao Lak, Thailand",
@@ -81,7 +86,7 @@
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "guesthouse"
+    "property": "Guest House"
   },
   {
     "id": 7,
@@ -95,35 +100,35 @@
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "house"
+    "property": "House"
   },
   {
     "id": 8,
     "location": "Khao Lak, Thailand",
     "image": "https://a0.muscache.com/im/pictures/miso/Hosting-826732383054098647/original/457337ee-af64-462f-90d0-b9fa1ce98a73.jpeg",
     "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 213,
+    "price": 350,
     "category": "Windmills",
     "region": "Asia",
     "type": "room",
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "apartment"
+    "property": "Apartment"
   },
   {
     "id": 9,
     "location": "Khao Lak, Thailand",
     "image": "https://a0.muscache.com/im/pictures/miso/Hosting-826726918494647682/original/d1586407-7873-4c15-91e2-61ab713d2aca.jpeg",
     "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 213,
+    "price": 250,
     "category": "Camping",
     "region": "Asia",
     "type": "home",
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "house"
+    "property": "House"
   },
   {
     "id": 10,
@@ -137,13 +142,13 @@
     "bedroom": 5,
     "bed": 7,
     "bathroom": 6,
-    "property": "guesthouse"
+    "property": "Guest House"
   },
 
   {
     "id": 11,
     "location": "Paris, France",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thislifeoftravel.com%2Ffrance%2Fparis-where-to-stay&psig=AOvVaw3rws7w6OsPlxfVFyRK8vcT&ust=1694051337778000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPC1u5DvlIEDFQAAAAAdAAAAABAE",
+    "image": "https://i.pinimg.com/1200x/f8/0f/5c/f80f5ce5c8c9e0f983b66966fef2e0c2.jpg",
     "dateRange": "May 15, 2024 - May 20, 2024",
     "price": 650,
     "category": "Lux",
@@ -152,21 +157,21 @@
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "apartment"
+    "property": "Apartment"
   },
   {
     "id": 12,
     "location": "Amsterdam, Netherlands",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHg3EmUWYJPwQQ2OB5O4xIfisa2tm59BpzpQ&usqp=CAU",
+    "image": "https://cdn.kimkim.com/files/a/images/19ff923c9c5c330842b5e1a1795597472db324ab/original-8e48f980d8b1007966b354a64f68245f.jpg",
     "dateRange": "June 1, 2024 - June 6, 2024",
     "price": 550,
-    "category": "Canal",
+    "category": "Lake",
     "region": "Europe",
     "type": "home",
     "bedroom": 7,
     "bed": 7,
     "bathroom": 7,
-    "property": "house"
+    "property": "House"
   },
   {
     "id": 13,
@@ -180,7 +185,7 @@
     "bedroom": 6,
     "bed": 6,
     "bathroom": 3,
-    "property": "guesthouse"
+    "property": "Guest House"
   },
   {
     "id": 14,
@@ -188,13 +193,13 @@
     "image": "https://www.ciee.org/sites/default/files/images/2023-05/rome-downtown-piazza-fountain-spanish-steps.jpg",
     "dateRange": "August 5, 2024 - August 10, 2024",
     "price": 600,
-    "category": "Historic",
+    "category": "Pools",
     "region": "Europe",
     "type": "home",
     "bedroom": 4,
     "bed": 4,
     "bathroom": 3,
-    "property": "apartment"
+    "property": "Apartment"
   },
   {
     "id": 15,
@@ -208,21 +213,21 @@
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "house"
+    "property": "House"
   },
   {
     "id": 16,
     "location": "Cappadocia, Turkey",
     "image": "https://www.wanderlustchloe.com/wp-content/uploads/2019/03/Kayakapi-Premium-Caves.jpg",
     "dateRange": "November 5, 2024 - November 10, 2024",
-    "price": 700,
-    "category": "Cave",
+    "price": 550,
+    "category": "Caves",
     "region": "Middle East",
     "type": "home",
     "bedroom": 5,
     "bed": 4,
     "bathroom": 4,
-    "property": "apartment"
+    "property": "Apartment"
   },
   {
     "id": 17,
@@ -236,21 +241,21 @@
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "house"
+    "property": "House"
   },
   {
     "id": 18,
     "location": "Ajloun Castle, Jordan",
     "image": "https://al-jabal-castle-hotel-ajloun.albooked.com/data/Photos/OriginalPhoto/464/46489/46489354/Al-Jabal-Castle-Hotel-Ajloun-Room.JPEG",
     "dateRange": "January 7, 2025 - January 12, 2025",
-    "price": 550,
+    "price": 750,
     "category": "Castle",
     "region": "Middle East",
     "type": "room",
     "bedroom": 3,
     "bed": 3,
     "bathroom": 3,
-    "property": "guesthouse"
+    "property": "Guest House"
   },
   {
     "id": 19,
@@ -264,23 +269,98 @@
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "apartment"
+    "property": "Apartment"
   },
   {
     "id": 20,
     "location": "Qeshm Island, Iran",
     "image": "https://api-abroad.sfo2.cdn.digitaloceanspaces.com/images/_1200x675_crop_center-center_82_line/spain-barcelona-beach-210532036.jpg",
     "dateRange": "March 20, 2025 - March 25, 2025",
-    "price": 720,
+    "price": 420,
     "category": "Desert",
     "region": "Middle East",
     "type": "home",
     "bedroom": 5,
     "bed": 4,
     "bathroom": 4,
-    "property": "house"
+    "property": "House"
+  },
+ 
+
+  {
+    "id": 21,
+    "location": "Sidemen, Bali",
+    "image": "https://a0.muscache.com/im/pictures/4f70b681-a792-4530-8c52-f2a8d262942d.jpg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 656,
+    "category": "Beach",
+    "region": "Asia",
+    "type": "home",
+    "bedroom": 5,
+    "bed": 4,
+    "bathroom": 3,
+    "property": "House"
+  },
+  {
+    "id": 22,
+    "location": "Abiansemal, Bali",
+    "image": "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 513,
+    "category": "Windmills",
+    "region": "Asia",
+    "type": "room",
+    "bedroom": 3,
+    "bed": 3,
+    "bathroom": 2,
+    "property": "Apartment"
+  },
+  {
+    "id": 23,
+    "location": "Kecamatan Ubud, Bali",
+    "image": "https://a0.muscache.com/im/pictures/prohost-api/Hosting-46761225/original/11058c0d-fac8-4035-8f16-8b3abe7441cd.jpeg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 456,
+    "category": "Modern",
+    "region": "Asia",
+    "type": "room",
+    "bedroom": 5,
+    "bed": 4,
+    "bathroom": 3,
+    "property": "Guest House"
+  },
+  {
+    "id": 24,
+    "location": "Koh Samui, Thailand",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-820950793239599563/original/d5c1f686-f06a-4b65-9f55-32e19dc0b23f.jpeg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 513,
+    "category": "Countryside",
+    "region": "Asia",
+    "type": "home",
+    "bedroom": 5,
+    "bed": 4,
+    "bathroom": 4,
+    "property": "House"
+  },
+  {
+    "id": 25,
+    "location": "Surat Thani, Thailand",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-820954888871612167/original/f37e01a9-cb1a-446d-be7e-c1d62d1f1c23.jpeg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 456,
+    "category": "Camping",
+    "region": "Asia",
+    "type": "room",
+    "bedroom":3 ,
+    "bed": 3,
+    "bathroom": 2,
+    "property": "Apartment"
   }
-     
+
+
+
+      
 
 ]
 
