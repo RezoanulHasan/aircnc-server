@@ -35,7 +35,7 @@
     "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTqv3NmWoYpI/v1/-1x-1.jpg",
     "dateRange": "July 10, 2024 - July 15, 2024",
     "price": 700,
-    "category": "Beach",
+    "category": "Modern",
     "region": "Europe",
     "type": "room",
     "bedroom": 6,
@@ -115,34 +115,36 @@
     "bathroom": 3,
     "property": "Apartment"
   },
+  
   {
     "id": 9,
-    "location": "Khao Lak, Thailand",
-    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-826726918494647682/original/d1586407-7873-4c15-91e2-61ab713d2aca.jpeg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 250,
-    "category": "Camping",
-    "region": "Asia",
+    "location": "Victoria Falls, Zambia",
+    "image": "https://www.safari.co.za/images/avani-victoria-falls-resort-restaurant-590x390.jpg",
+    "dateRange": "Mar 8, 2025 - Mar 13, 2025",
+    "price": 700,
+    "category": "Castles",
+    "region": "Africa",
     "type": "home",
     "bedroom": 5,
     "bed": 4,
     "bathroom": 3,
-    "property": "House"
-  },
-  {
+    "property": "Hotel"
+    },
+    
+    {
     "id": 10,
-    "location": "Kecamatan Ubud, Bali",
-    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-812919482265584093/original/c60bc2f2-7d16-4f7d-acf2-44c2f855fb81.jpeg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 213,
-    "category": "Pools",
-    "region": "Asia",
-    "type": "home",
-    "bedroom": 5,
-    "bed": 7,
-    "bathroom": 6,
-    "property": "Guest House"
-  },
+    "location": "Zanzibar, Tanzania",
+    "image": "https://seeafricatoday.com/wp-content/uploads/2022/08/229MeliaZanzibar-Jetty-Entrance-2.webp",
+    "dateRange": "Jul 12, 2025 - Jul 17, 2025",
+    "price": 295,
+    "category": "Countryside",
+    "region": "Africa",
+    "type": "room",
+    "bedroom": 7,
+    "bed": 6,
+    "bathroom": 5,
+    "property": "Hotel"
+    },
 
   
   {
@@ -188,51 +190,53 @@
     "bathroom": 5,
     "property": "House"
   } , 
+ 
+
   {
     "id": 14,
-    "location": " Adelaide",
-    "image": "https://assets.atdw-online.com.au/images/757b73ff0a0b7a7fbb948d2beae714bc.jpeg?rect=114%2C0%2C1820%2C1365&w=1600&h=1200&rot=360&q=eyJ0eXBlIjoibGlzdGluZyIsImxpc3RpbmdJZCI6IjYzNTlmZGY3MTBkZTc2ZGI3ZTkxNjZiYSIsImRpc3RyaWJ1dG9ySWQiOiI1NmIxZWI5MzQ0ZmVjYTNkZjJlMzIwZTMiLCJhcGlrZXlJZCI6IjU2YjFmNjNmMGNmMjEzYWQyMGRlZGVjYSJ9",
-    "dateRange": "May 15, 2024 - May 20, 2024",
-    "price": 350,
-    "category": "Castles",
-    "region": "Australia",
-    "type": "room",
-    "bedroom": 2,
-    "bed": 3,
-    "bathroom": 2,
-    "property": "Hotel"
-  },
-  {
-    "id": 15,
-    "location": " Brisbane",
-    "image": "https://images.trvl-media.com/lodging/6000000/5210000/5208800/5208769/fbdee52d.jpg?impolicy=resizecrop&rw=500&ra=fit",
-    "dateRange": "Apr 15, 2024 - Apr 20, 2024",
-    "price": 400,
-    "category": "Skiing",
-    "region": "Australia",
-    "type": "room",
-    "bedroom": 3,
-    "bed": 4,
-    "bathroom": 3,
-    "property": "House"
-  },
-
-
-  {
-    "id": 16,
-    "location": "Cappadocia, Turkey",
-    "image": "https://www.wanderlustchloe.com/wp-content/uploads/2019/03/Kayakapi-Premium-Caves.jpg",
-    "dateRange": "Nov 5, 2024 - Nov 10, 2024",
-    "price": 550,
+    "location": "Vinson Massif",
+    "image": "https://www.contemporist.com/wp-content/uploads/2015/07/skylodge_020715_17.jpg",
+    "dateRange": "Jan 15, 2026 - Jan 20, 2026",
+    "price": 800,
     "category": "Caves",
-    "region": "Middle East",
-    "type": "home",
-    "bedroom": 5,
-    "bed": 4,
-    "bathroom": 4,
-    "property": "Apartment"
-  },
+    "region": "Antarctica",
+    "type": "Caves",
+    "bedroom": 2,
+    "bed": 2,
+    "bathroom": 1,
+    "property": "Guest House"
+    },
 
+  
+  {
+  "id": 15,
+  "location": "Lake Vostok, Antarctica",
+  "image": "https://qph.cf2.quoracdn.net/main-qimg-70cb767cab6927b15019e05f357327f6-pjlq",
+  "dateRange": "May 20, 2026 - May 25, 2026",
+  "price": 250,
+  "category": "Pools",
+  "region": "Antarctica",
+  "type": "Pools",
+  "bedroom": 5,
+  "bed": 4,
+  "bathroom": 3,
+  "property": "Apartment"
+  },
+  
+  {
+  "id": 16,
+  "location": "Ross Island, Antarctica",
+  "image": "https://s3-ap-southeast-2.amazonaws.com/media.meritonsuites.com.au/wp-content/uploads/2021/03/31230549/antarctica_mainbanner.jpg",
+  "dateRange": "Aug 12, 2026 - Aug 17, 2026",
+  "price": 200,
+  "category": "Islands",
+  "region": "Antarctica",
+  "type": "Islands",
+  "bedroom": 6,
+  "bed": 5,
+  "bathroom": 4,
+  "property": "House"
+  },
 
   {
     "id": 17,
@@ -246,24 +250,26 @@
     "bedroom": 7,
     "bed": 7,
     "bathroom": 7,
-    "property": "House"
+    "property": "Guest House"
   },
-  
+
+
   {
     "id": 18,
-    "location": "Sedona, Arizona,USA",
-    "image": "https://www.hospitalitynet.org/picture/xxl_153119616.jpg?t=1602574076",
-    "dateRange": "May 1, 2024 - May 7, 2024",
-    "price": 350,
-    "category": "Caves",
-    "region": "USA",
-    "type": "home",
-    "bedroom": 2,
+    "location": "Abiansemal, Bali",
+    "image": "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 513,
+    "category": "Windmills",
+    "region": "Asia",
+    "type": "room",
+    "bedroom": 3,
     "bed": 3,
     "bathroom": 2,
-    "property": "House"
+    "property": "Apartment"
   },
-  {
+
+{
     "id": 19,
     "location": "Maui, Hawaii,USA",
     "image": "https://www.travelandleisure.com/thmb/ITJGviqnQNi5Qe1OtfBFwc333Ng=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/viceroy-snowmass-winter_MTNRESORT1022-e75a77b50fc7412196c056c78a0eae6e.jpg",
@@ -308,20 +314,24 @@
     "bathroom": 3,
     "property": "House"
   },
+
+
   {
     "id": 22,
-    "location": "Abiansemal, Bali",
-    "image": "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg",
-    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-    "price": 513,
-    "category": "Windmills",
-    "region": "Asia",
-    "type": "room",
-    "bedroom": 3,
+    "location": "Sedona, Arizona,USA",
+    "image": "https://www.hospitalitynet.org/picture/xxl_153119616.jpg?t=1602574076",
+    "dateRange": "May 1, 2024 - May 7, 2024",
+    "price": 350,
+    "category": "Caves",
+    "region": "USA",
+    "type": "home",
+    "bedroom": 2,
     "bed": 3,
     "bathroom": 2,
-    "property": "Apartment"
+    "property": "Hotel"
   },
+  
+
   {
     "id": 23,
     "location": "Kecamatan Ubud, Bali",
@@ -367,19 +377,18 @@
 
   {
     "id": 26,
-    "location": " Wyoming,USA",
-    "image": "https://trueluxuryvillas.com/media/default/0001/06/e3d1b456603d31cb083a98606ffae0506a96ed0b.jpeg",
-    "dateRange": "Feb 20, 2024 - Feb 25, 2024",
-    "price": 800,
-    "category": "Skiing",
-    "region": "USA",
+    "location": "Maasai Mara, Kenya",
+    "image": "https://ik.imgkit.net/3vlqs5axxjf/external/http://images.ntmllc.com/v4/Hotel/U24/U24189/U24189_EXT_ZCF135.JPG?tr=w-1200%2Cfo-auto",
+    "dateRange": "May 10, 2025 - May 15, 2025",
+    "price": 970,
+    "category": "Arctic",
+    "region": "Africa",
     "type": "room",
-    "bedroom": 2,
-    "bed": 4,
-    "bathroom": 1,
+    "bedroom": 4,
+    "bed": 3,
+    "bathroom": 2,
     "property": "Apartment"
-},
-
+    },
 
 {
     "id": 27,
@@ -437,8 +446,152 @@
   "bed": 4,
   "bathroom": 3,
   "property": "Apartment"
-}
-     
+},
+
+{
+    "id": 31,
+    "location": " Wyoming,USA",
+    "image": "https://trueluxuryvillas.com/media/default/0001/06/e3d1b456603d31cb083a98606ffae0506a96ed0b.jpeg",
+    "dateRange": "Feb 20, 2024 - Feb 25, 2024",
+    "price": 800,
+    "category": "Skiing",
+    "region": "USA",
+    "type": "room",
+    "bedroom": 2,
+    "bed": 4,
+    "bathroom": 1,
+    "property": "Apartment"
+},
+
+ {
+  "id": 32,
+  "location": "Cape Town, South Africa",
+  "image": "https://www.theafricaspecialists.com/sites/default/files/styles/1920x1200adaptive/public/slideshow-pics/RoyalLivingstone4.jpg?itok=ACjjcAFl&slideshow=true&slideshowAuto=true&slideshowSpeed=5000&speed=350&transition=elastic",
+  "dateRange": "Sep 5, 2025 - Sep 10, 2025",
+  "price": 950,
+  "category": "Beach",
+  "region": "Africa",
+  "type": "home",
+  "bedroom": 6,
+  "bed": 5,
+  "bathroom": 4,
+  "property": "Guest House"
+  },
+  
+  {
+  "id": 33,
+  "location": "Marrakech, Morocco",
+  "image": "https://wanderingcarol.com/wp-content/uploads/2016/01/Best-hotel-in-Victoria-Falls-The-Royal-Livingstone-Hotel-pictures.jpg",
+  "dateRange": "Nov 20, 2025 - Nov 25, 2025",
+  "price": 700,
+  "category": "Camping",
+  "region": "Africa",
+  "type": "room",
+  "bedroom": 3,
+  "bed": 2,
+  "bathroom": 2,
+  "property": "Apartment"
+  },
+  
+  {
+    "id": 34,
+    "location": "Khao Lak, Thailand",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-826726918494647682/original/d1586407-7873-4c15-91e2-61ab713d2aca.jpeg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 250,
+    "category": "Camping",
+    "region": "Asia",
+    "type": "home",
+    "bedroom": 5,
+    "bed": 4,
+    "bathroom": 3,
+    "property": "House"
+  },
+  {
+    "id": 35,
+    "location": "Kecamatan Ubud, Bali",
+    "image": "https://a0.muscache.com/im/pictures/miso/Hosting-812919482265584093/original/c60bc2f2-7d16-4f7d-acf2-44c2f855fb81.jpeg",
+    "dateRange": "Jan 9, 2024 - Jan 14, 2024",
+    "price": 213,
+    "category": "Pools",
+    "region": "Asia",
+    "type": "home",
+    "bedroom": 5,
+    "bed": 7,
+    "bathroom": 6,
+    "property": "Hotel"
+  },
+  {
+    "id": 36,
+    "location": "Antarctic Peninsula, Antarctica",
+    "image": "https://www.polartours.com/_next/image?url=https%3A%2F%2Fmedia.venturatravel.org%2Funsafe%2F500x%2Fsmart%2Fcc3bb842-0131-48d2-ab49-2d3d87491366-goudier_island-2016-port_lockroy_02.jpg&w=3840&q=75",
+    "dateRange": "Dec 2, 2025 - Dec 7, 2025",
+    "price": 500,
+    "category": "Skiing",
+    "region": "Antarctica",
+    "type": "Skiing",
+    "bedroom": 4,
+    "bed": 3,
+    "bathroom": 2,
+    "property": "House"
+    },
+     {
+    "id": 37,
+    "location": "East Antarctica Ice Sheet, Antarctica",
+    "image": "https://www.1843magazine.com/sites/default/files/styles/il_manual_crop_16_9/public/201604_FE_ANT_003-header-web-v2.jpg",
+    "dateRange": "Mar 8, 2026 - Mar 13, 2026",
+    "price": 220,
+    "category": "Arctic",
+    "region": "Antarctica",
+    "type": "Arctic",
+    "bedroom": 3,
+    "bed": 2,
+    "bathroom": 2,
+    "property": "Hotel"
+    },
+    {
+      "id": 38,
+      "location": "Adelaide,Australia",
+      "image": "https://assets.atdw-online.com.au/images/757b73ff0a0b7a7fbb948d2beae714bc.jpeg?rect=114%2C0%2C1820%2C1365&w=1600&h=1200&rot=360&q=eyJ0eXBlIjoibGlzdGluZyIsImxpc3RpbmdJZCI6IjYzNTlmZGY3MTBkZTc2ZGI3ZTkxNjZiYSIsImRpc3RyaWJ1dG9ySWQiOiI1NmIxZWI5MzQ0ZmVjYTNkZjJlMzIwZTMiLCJhcGlrZXlJZCI6IjU2YjFmNjNmMGNmMjEzYWQyMGRlZGVjYSJ9",
+      "dateRange": "May 15, 2024 - May 20, 2024",
+      "price": 350,
+      "category": "Castles",
+      "region": "Australia",
+      "type": "room",
+      "bedroom": 2,
+      "bed": 3,
+      "bathroom": 2,
+      "property": "Hotel"
+    },
+    {
+      "id": 39,
+      "location": " Brisbane,Australia",
+      "image": "https://images.trvl-media.com/lodging/6000000/5210000/5208800/5208769/fbdee52d.jpg?impolicy=resizecrop&rw=500&ra=fit",
+      "dateRange": "Apr 15, 2024 - Apr 20, 2024",
+      "price": 400,
+      "category": "Skiing",
+      "region": "Australia",
+      "type": "room",
+      "bedroom": 3,
+      "bed": 4,
+      "bathroom": 3,
+      "property": "House"
+    },
+  
+     {
+      "id": 40,
+      "location": "Cappadocia, Turkey",
+      "image": "https://www.wanderlustchloe.com/wp-content/uploads/2019/03/Kayakapi-Premium-Caves.jpg",
+      "dateRange": "Nov 5, 2024 - Nov 10, 2024",
+      "price": 550,
+      "category": "Caves",
+      "region": "Middle East",
+      "type": "home",
+      "bedroom": 5,
+      "bed": 4,
+      "bathroom": 4,
+      "property": "Apartment"
+    }
 
 ]
 
