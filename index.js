@@ -43,7 +43,102 @@ async function run() {
 
 
 const contactCollection = client.db('aircnc').collection('contacts');
+const usersCollection = client.db("aircnc").collection("users");
 
+
+//*---------------------------users--------------------------*
+// Get all users
+app.get('/users', async (req, res) => {
+  const result = await usersCollection.find().toArray();
+  res.send(result);
+});
+
+
+// Register a new user
+app.post('/users', async (req, res) => {
+  const user = req.body;
+  const query = { email: user.email };
+  const existingUser = await usersCollection.findOne(query);
+  if (existingUser) {
+    return res.send({ message: 'User already exists' });
+  }
+  const result = await usersCollection.insertOne(user);
+  res.send(result);
+});
+
+
+
+
+
+// Verify if a user is an admin
+//verifyJWT
+app.get('/users/admin/:email', async (req, res) => {
+  const email = req.params.email;
+  if (req.decoded.email !== email) {
+    res.send({ admin: false });
+  }
+// email cheak
+  const query = { email: email };
+  const user = await usersCollection.findOne(query);
+   // check admin
+  const result = { admin: user?.role === 'admin' };
+  res.send(result);
+});
+
+// Promote a user to admin
+app.patch('/users/admin/:id', async (req, res) => {
+  const id = req.params.id;
+  const filter = { _id: new ObjectId(id) };
+  const updateDoc = {
+    $set: {
+      role: 'admin',
+    },
+  };
+
+  const result = await usersCollection.updateOne(filter, updateDoc);
+  res.send(result);
+});
+
+
+
+
+
+// Verify if a user is an host
+app.get('/users/host/:email',  async (req, res) => {
+  const email = req.params.email;
+  if (req.decoded.email !== email) {
+    res.send({ host: false });
+  }
+// email cheak
+  const query = { email: email };
+  const user = await usersCollection.findOne(query);
+    // check instructor
+  const result = { host: user?.role === 'host' };
+  res.send(result);
+});
+
+// Promote a user to instructor
+app.patch('/users/host/:id', async (req, res) => {
+  const id = req.params.id;
+  const filter = { _id: new ObjectId(id) };
+  const updateDoc = {
+    $set: {
+      role: 'host',
+    },
+  };
+
+  const result = await usersCollection.updateOne(filter, updateDoc);
+  res.send(result);
+});
+
+
+// Delete a user
+app.delete('/users/:id', async (req, res) => {
+  const id = req.params.id;
+  const query = { _id: new ObjectId(id) };
+  const result = await usersCollection.deleteOne(query);
+  res.send(result);
+});
 
 
 

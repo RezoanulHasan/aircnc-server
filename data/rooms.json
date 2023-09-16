@@ -1,22 +1,27 @@
 [
   
   
+
     {
       "id": 1,
-      "location": "Paris, France",
-      "latitude": 48.8566,
-      "longitude": 2.3522,
-      "image": "https://i.pinimg.com/1200x/f8/0f/5c/f80f5ce5c8c9e0f983b66966fef2e0c2.jpg",
-      "dateRange": "May 15, 2024 - May 20, 2024",
-      "price": 650,
-      "category": "Lux",
-      "region": "Europe",
-      "type": "room",
-      "bedroom": 5,
-      "bed": 4,
-      "bathroom": 3,
-      "property": "Apartment"
-    },
+      "location": "Pevek, Chukotka, Russia",
+      "image": "https://chukotka.travel/upload/shutterstock_1348465025.jpg",
+      "dateRange": "Aug 20, 2026 - Aug 25, 2026",
+      "price": 900,
+      "category": "Arctic",
+      "region": " Russia",
+      "type": "Hotel",
+      "bedroom": 6,
+      "bed": 5,
+      "bathroom": 4,
+      "property": "Villa",
+      "latitude": 69.7008,
+      "longitude": 170.3131
+      },
+
+
+
+
     {
       "id": 2,
       "location": "Amsterdam, Netherlands",
@@ -124,14 +129,14 @@
         "longitude": 98.2501,
         "image": "https://a0.muscache.com/im/pictures/miso/Hosting-826732383054098647/original/457337ee-af64-462f-90d0-b9fa1ce98a73.jpeg",
         "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-        "price": 350,
+        "price": 1350,
         "category": "Windmills",
         "region": "Asia",
         "type": "room",
         "bedroom": 5,
         "bed": 4,
         "bathroom": 3,
-        "property": "Apartment"
+        "property": "villa"
       },
       {
         "id": 9,
@@ -140,7 +145,7 @@
         "longitude": 25.8572,
         "image": "https://www.safari.co.za/images/avani-victoria-falls-resort-restaurant-590x390.jpg",
         "dateRange": "Mar 8, 2025 - Mar 13, 2025",
-        "price": 700,
+        "price": 1700,
         "category": "Castles",
         "region": "Africa",
         "type": "home",
@@ -223,7 +228,7 @@
           "longitude": -85.6175,
           "image": "https://www.contemporist.com/wp-content/uploads/2015/07/skylodge_020715_17.jpg",
           "dateRange": "Jan 15, 2026 - Jan 20, 2026",
-          "price": 800,
+          "price": 1800,
           "category": "Caves",
           "region": "Antarctica",
           "type": "Caves",
@@ -287,14 +292,14 @@
           "longitude": 115.2297,
           "image": "https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg",
           "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-          "price": 513,
+          "price": 1513,
           "category": "Windmills",
           "region": "Asia",
           "type": "room",
           "bedroom": 3,
           "bed": 3,
           "bathroom": 2,
-          "property": "Apartment"
+          "property": "villa"
         },
         {
           "id": 19,
@@ -399,7 +404,7 @@
           "longitude": 99.3331,
           "image": "https://a0.muscache.com/im/pictures/miso/Hosting-820954888871612167/original/f37e01a9-cb1a-446d-be7e-c1d62d1f1c23.jpeg",
           "dateRange": "Jan 9, 2024 - Jan 14, 2024",
-          "price": 456,
+          "price": 1456,
           "category": "Camping",
           "region": "Asia",
           "type": "room",
@@ -482,7 +487,7 @@
             "longitude": 15.6267,
             "image": "https://ca-times.brightspotcdn.com/dims4/default/a8b4b76/2147483647/strip/true/crop/494x329+3+0/resize/1440x960!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb0%2F52%2F07417cb9fc88dcc296a76464437d%2Fla-fg-vault06-jpdcqwnc.jpg",
             "dateRange": "Feb 15, 2025 - Feb 20, 2025",
-            "price": 850,
+            "price": 1850,
             "category": "Arctic",
             "region": "Middle East",
             "type": "home",
@@ -505,7 +510,7 @@
             "bedroom": 2,
             "bed": 4,
             "bathroom": 1,
-            "property": "Apartment"
+            "property": "villa"
           },
           {
             "id": 32,
@@ -611,7 +616,7 @@
               "longitude": 138.6007,
               "image": "https://assets.atdw-online.com.au/images/757b73ff0a0b7a7fbb948d2beae714bc.jpeg?rect=114%2C0%2C1820%2C1365&w=1600&h=1200&rot=360&q=eyJ0eXBlIjoibGlzdGluZyIsImxpc3RpbmdJZCI6IjYzNTlmZGY3MTBkZTc2ZGI3ZTkxNjZiYSIsImRpc3RyaWJ1dG9ySWQiOiI1NmIxZWI5MzQ0ZmVjYTNkZjJlMzIwZTMiLCJhcGlrZXlJZCI6IjU2YjFmNjNmMGNmMjEzYWQyMGRlZGVjYSJ9",
               "dateRange": "May 15, 2024 - May 20, 2024",
-              "price": 350,
+              "price": 1350,
               "category": "Castles",
               "region": "Australia",
               "type": "room",
@@ -644,15 +649,436 @@
               "image": "https://www.wanderlustchloe.com/wp-content/uploads/2019/03/Kayakapi-Premium-Caves.jpg",
               "dateRange": "Nov 5, 2024 - Nov 10, 2024",
               "price": 550,
-              "category": "Caves",
+              "category": "Pools",
               "region": "Middle East",
               "type": "home",
               "bedroom": 5,
               "bed": 4,
               "bathroom": 4,
               "property": "Apartment"
-            }
-          
+            },
+
+
+            {
+              "id": 41,
+              "location": "Krasnaya Polyana, Russia",
+              "image": "https://sochi-marriott-krasnaya-polyana-hotel.hotelmix.co.uk/data/Photos/OriginalPhoto/11711/1171141/1171141971/Marriott-Sochi-Krasnaya-Polyana-Hotel-Exterior.JPEG",
+              "dateRange": "Jan 5, 2026 - Jan 10, 2026",
+              "price": 1200,
+              "category": "Skiing",
+              "region": "Russia",
+              "type": "Skiing",
+              "bedroom": 3,
+              "bed": 2,
+              "bathroom": 2,
+              "property": "Apartment",
+              "latitude": 43.6796,
+              "longitude": 40.2361
+              },
+              
+              {
+              "id": 42,
+              "location": "Kungur, Russia",
+              "image": "https://res.cloudinary.com/lastminute/image/upload/q_auto/v1683291458/ebwpq7txio6zyeyuunxx.jpg",
+              "dateRange": "Mar 20, 2026 - Mar 25, 2026",
+              "price": 900,
+              "category": "Caves",
+              "region": "Russia",
+              "type": "Caves",
+              "bedroom": 2,
+              "bed": 2,
+              "bathroom": 1,
+              "property": "Guest House",
+              "latitude": 57.4289,
+              "longitude": 56.9511
+              },
+              
+              {
+              "id": 43,
+              "location": "Murmansk, Russia",
+              "image": "https://img.itinari.com/activity/images/original/5a8881f7-498d-4ca0-b145-a008b89716e0-boris-bosarev.jpg?ch=DPR&dpr=2.625&w=1200&h=800&s=e0ce43f665b847096a832dc8f0555f3f",
+              "dateRange": "May 8, 2026 - May 13, 2026",
+              "price": 1100,
+              "category": "Arctic",
+              "region": "Russia",
+              "type": "Arctic",
+              "bedroom": 4,
+              "bed": 3,
+              "bathroom": 2,
+              "property": "Hotel",
+              "latitude": 68.9707,
+              "longitude": 33.0749
+              },
+              
+              {
+              "id": 44,
+              "location": "Sochi, Russia",
+              "image": "https://boomersdaily.files.wordpress.com/2021/04/kizhi-russia-360-degree-aerial-video-april-2-2021.jpg",
+              "price": 1000,
+              "category": "Pools",
+              "region": "Russia",
+              "type": "Pools",
+              "bedroom": 5,
+              "bed": 4,
+              "bathroom": 3,
+              "property": "House",
+              "latitude": 43.6021,
+              "longitude": 39.7346
+              },
+              
+              {
+              "id": 45,
+              "location": "Kizhi Island, Russia",
+              "image": "https://ak-d.tripcdn.com/images/220i0w000000k58155721_R_960_660_R5_D.jpg",
+              "dateRange": "Nov 10, 2026 - Nov 15, 2026",
+              "price": 900,
+              "category": "Islands",
+              "region": "Russia",
+              "type": "Islands",
+              "bedroom": 6,
+              "bed": 5,
+              "bathroom": 4,
+              "property": "House",
+              "latitude": 62.0662,
+              "longitude": 35.2540
+              },
+
+
+              {
+                "id": 46,
+                "location": "Hangzhou, China",
+                "image": "https://www.chinabusinessreview.com/wp-content/uploads/2016/10/Hangzhou.jpg",
+                "dateRange": "Oct 10, 2026 - Oct 15, 2026",
+                "price": 500,
+                "category": "Lux",
+                "region": "Asia",
+                "type": "Hotel",
+                "bedroom": 7,
+                "bed": 6,
+                "bathroom": 5,
+                "property": "Hotel",
+                "latitude": 30.2741,
+                "longitude": 120.1551
+                },
+                
+                {
+                "id": 47,
+                "location": "Lugu Lake, China",
+                "image": "https://content.r9cdn.net/rimg/dimg/3d/16/82c0e8c8-city-22530-16917208240.jpg?crop=true&width=1366&height=768&xhint=3206&yhint=1494",
+                "dateRange": "Dec 1, 2026 - Dec 6, 2026",
+                "price": 1200,
+                "category": "Lake",
+                "region": "Asia",
+                "type": "House",
+                "bedroom": 4,
+                "bed": 3,
+                "bathroom": 2,
+                "property": "House",
+                "latitude": 27.7109,
+                "longitude": 100.7737
+                },
+
+                {
+                  "id": 48,
+                  "location": "Dubai, UAE",
+                  "image": "https://i.insider.com/62a5bc136053710019e9dc35?width=1136&format=jpeg",
+                  "dateRange": "Mar 15, 2027 - Mar 20, 2027",
+                  "price": 500,
+                  "category": "Lux",
+                  "region": "Middle East",
+                  "type": "Hotel",
+                  "bedroom": 8,
+                  "bed": 7,
+                  "bathroom": 6,
+                  "property": "Hotel",
+                  "latitude": 25.276987,
+                  "longitude": 55.296249
+                },
+                {
+                  "id": 49,
+                  "location": "Baghdad, Iraq",
+                  "image": "https://www.e-architect.com/wp-content/uploads/2023/08/budoor-residential-complex-baghdad-iraq-m190823-6.jpg",
+                  "dateRange": "May 5, 2027 - May 10, 2027",
+                  "price": 800,
+                  "category": "Lake",
+                  "region": "Middle East",
+                  "type": "House",
+                  "bedroom": 5,
+                  "bed": 4,
+                  "bathroom": 3,
+                  "property": "House",
+                  "latitude": 33.3152,
+                  "longitude": 44.3661
+                },
+                
+
+                {
+                  "id": 50,
+                  "location": "Riyadh, Saudi Arabia",
+                  "image": "https://amazingarchitecture.com/storage/files/1/architecture-firms/baa-architects/babylon-shrine/babylon_shrine_baa_architects_baghdad_iraq-1.jpg",
+                  "dateRange": "Jul 20, 2027 - Jul 25, 2027",
+                  "price": 200,
+                  "category": "Modern",
+                  "region": "Middle East",
+                  "type": "Apartment",
+                  "bedroom": 3,
+                  "bed": 2,
+                  "bathroom": 2,
+                  "property": "Apartment",
+                  "latitude": 24.7117,
+                  "longitude": 46.7246
+                },
+                {
+                  "id": 51,
+                  "location": "Amman, Jordan",
+                  "image": "https://jordantraveler.com/wp-content/uploads/2022/05/Amman-Itinerary-Hero.png",
+                  "dateRange": "Sep 10, 2027 - Sep 15, 2027",
+                  "price": 1300,
+                  "category": "Lux",
+                  "region": "Middle East",
+                  "type": "Villa",
+                  "bedroom": 6,
+                  "bed": 5,
+                  "bathroom": 4,
+                  "property": "Villa",
+                  "latitude": 31.9632,
+                  "longitude": 35.9304
+                },{
+                  "id": 52,
+                  "location": "Dubai, UAE",
+                  "image": "https://media-cdn.tripadvisor.com/media/photo-s/11/88/27/30/steigenberger-hotel-business.jpg",
+                  "dateRange": "Nov 1, 2027 - Nov 6, 2027",
+                  "price": 650,
+                  "category": "Lake",
+                  "region": "Middle East",
+                  "type": "House",
+                  "bedroom": 7,
+                  "bed": 6,
+                  "bathroom": 5,
+                  "property": "House",
+                  "latitude": 25.276987,
+                  "longitude": 55.296249
+                },{
+                  "id": 53,
+                  "location": "Baghdad, Iraq",
+                  "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/144171119.jpg?k=ea40d0287266894450e44ffc58903258cca67ddb0a6338c5c3518ddc0c534047&o=&hp=1",
+                  "dateRange": "Dec 15, 2027 - Dec 20, 2027",
+                  "price": 300,
+                  "category": "Modern",
+                  "region": "Middle East",
+                  "type": "Apartment",
+                  "bedroom": 4,
+                  "bed": 3,
+                  "bathroom": 2,
+                  "property": "Apartment",
+                  "latitude": 33.3152,
+                  "longitude": 44.3661
+                },{
+                  "id": 54,
+                  "location": "Dubai, UAE",
+                  "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/90/18/f0/the-ritz-carlton-dubai.jpg?w=1200&h=-1&s=1",
+                  "dateRange": "Nov 1, 2027 - Nov 6, 2027",
+                  "price": 700,
+                  "category": "Countryside",
+                  "region": "Middle East",
+                  "type": "House",
+                  "bedroom": 7,
+                  "bed": 6,
+                  "bathroom": 5,
+                  "property": "Villa",
+                  "latitude": 25.276987,
+                  "longitude": 55.296249
+                },{
+                  "id": 55,
+                  "location": "Karbala , Iraq",
+                  "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/15/c9/74/b8/ataa-al-hussain-hotel.jpg",
+                  "dateRange": "Dec 15, 2027 - Dec 20, 2027",
+                  "price": 1200,
+                  "category": "Camping",
+                  "region": "Middle East",
+                  "type": "Apartment",
+                  "bedroom": 4,
+                  "bed": 3,
+                  "bathroom": 2,
+                  "property": "Apartment",
+                  "latitude": 33.3152,
+                  "longitude": 44.3661
+                }  , 
+                {
+                "id": 56,
+                "location": "Hangzhou, China",
+                "image": "https://www.chinaholiday.com/Photos/458108/3946364.jpg",
+                "dateRange": "Oct 10, 2026 - Oct 15, 2026",
+                "price": 1500,
+                "category": "Castles",
+                "region": "Asia",
+                "type": "Hotel",
+                "bedroom": 7,
+                "bed": 6,
+                "bathroom": 5,
+                "property": "Hotel",
+                "latitude": 30.2741,
+                "longitude": 120.1551
+                },
+                
+                {
+                "id": 57,
+                "location": "Lugu Lake, China",
+                "image": "https://www.chinaholiday.com/Photos/349190/7089005.jpg",
+                "dateRange": "Dec 1, 2026 - Dec 6, 2026",
+                "price": 1200,
+                "category": "Windmills",
+                "region": "Asia",
+                "type": "House",
+                "bedroom": 4,
+                "bed": 3,
+                "bathroom": 2,
+                "property": "House",
+                "latitude": 27.7109,
+                "longitude": 100.7737
+                },  
+                {
+                "id": 58,
+                "location": "Anadyr, Chukotka Autonomous Okrug, Russia",
+                "image": "https://cdn.britannica.com/69/151169-050-D8DB8B4C/cathedral-Anadyr-Russia.jpg",
+                "dateRange": "Jun 5, 2026 - Jun 10, 2026",
+                "price": 950,
+                "category": "Arctic",
+                "region": " Russia",
+                "type": "House",
+                "bedroom": 5,
+                "bed": 4,
+                "bathroom": 3,
+                "property": "House",
+                "latitude": 64.7315,
+                "longitude": 177.5022
+                },
+                
+            
+                {
+                  "id": 59,
+                  "location": "Paris, France",
+                  "latitude": 48.8566,
+                  "longitude": 2.3522,
+                  "image": "https://i.pinimg.com/1200x/f8/0f/5c/f80f5ce5c8c9e0f983b66966fef2e0c2.jpg",
+                  "dateRange": "May 15, 2024 - May 20, 2024",
+                  "price": 650,
+                  "category": "Lux",
+                  "region": "Europe",
+                  "type": "room",
+                  "bedroom": 5,
+                  "bed": 4,
+                  "bathroom": 3,
+                  "property": "Apartment"
+                },
+                
+                {
+                  "id": 60,
+                  "location": "Abu Dhabi City, UAE",
+                  "image": "https://www.harpersbazaararabia.com/cloud/2021/09/09/Telal-Resort-Lead-1.jpg",
+                  "dateRange": "Mar 8, 2028 - Mar 13, 2028",
+                  "price": 1800,
+                  "category": "Lux",
+                  "region": "Middle East",
+                  "type": "Hotel",
+                  "bedroom": 8,
+                  "bed": 7,
+                  "bathroom": 6,
+                  "property": "Hotel",
+                  "latitude": 24.4539,
+                  "longitude": 54.3773
+                },
+                
+                
+                
+                
+                {
+                  "id": 61,
+                  "location": "Oymyakon, Sakha Republic, Russia",
+                  "image": "https://i0.wp.com/thejerker.com/wp-content/uploads/2022/02/cover-19.jpg?fit=599%2C466&ssl=1",
+                  "dateRange": "Feb 25, 2026 - Mar 2, 2026",
+                  "price": 800,
+                  "category": "Islands",
+                  "region": "Russia",
+                  "type": "Arctic",
+                  "bedroom": 3,
+                  "bed": 2,
+                  "bathroom": 1,
+                  "property": "Guest House",
+                  "latitude": 63.4641,
+                  "longitude": 143.1163
+                  },
+                  
+                  {
+                  "id": 62,
+                  "location": "Yakutsk, Sakha Republic, Russia",
+                  "image": "https://mf.b37mrtl.ru/rbthmedia/images/all/2013/0103/galleries/22083/1.jpg",
+                  "dateRange": "Apr 18, 2026 - Apr 23, 2026",
+                  "price": 1000,
+                  "category": "Caves",
+                  "region": "Sakha Republic, Russia",
+                  "type": "Hotel",
+                  "bedroom": 4,
+                  "bed": 3,
+                  "bathroom": 2,
+                  "property": "Hotel",
+                  "latitude": 62.0273,
+                  "longitude": 129.7325
+                  },
+                  {
+                    "id": 63,
+                    "location": "Al Ain, UAE",
+                    "image": "https://media-cdn.tripadvisor.com/media/photo-s/29/34/0f/f4/exterior.jpg",
+                    "dateRange": "Apr 20, 2028 - Apr 25, 2028",
+                    "price": 600,
+                    "category": "Pools",
+                    "region": "Middle East",
+                    "type": "Villa",
+                    "bedroom": 7,
+                    "bed": 6,
+                    "bathroom": 5,
+                    "property": "House",
+                    "latitude": 24.1302,
+                    "longitude": 55.8024
+                  },
+                  {
+                    "id": 64,
+                    "location": "Issyk-Kul, Kyrgyzstan",
+                    "image": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/258660792.jpg?k=23fa2f87893bcf85f054dcfe55318ff702ee9653358c230039e94f8cce10a22e&o=&hp=1",
+                    "dateRange": "Jun 15, 2028 - Jun 20, 2028",
+                    "price": 1200,
+                    "category": "Pools",
+                    "region": "Asia",
+                    "type": "Cottage",
+                    "bedroom": 3,
+                    "bed": 2,
+                    "bathroom": 2,
+                    "property": "villa",
+                    "latitude": 42.5833,
+                    "longitude": 77.0333
+                  },
+                  {
+                    "id": 65,
+                    "location": "Gobi Desert, Mongolia",
+                    "image": "https://www.jebiga.com/wp-content/uploads/2013/09/Desert_Lotus_Resort_Mongolia_Gobi_Desert_6.jpg",
+                    "dateRange": "Aug 5, 2028 - Aug 10, 2028",
+                    "price": 900,
+                    "category": "Desert",
+                    "region": "Asia",
+                    "type": "house",
+                    "bedroom": 2,
+                    "bed": 1,
+                    "bathroom": 1,
+                    "property": "Apartment",
+                    "latitude": 43.1533,
+                    "longitude": 105.7250
+                  }
+                  
+                  
+                  
+                
+                
+                
 
 ]
 
