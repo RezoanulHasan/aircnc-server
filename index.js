@@ -9,7 +9,11 @@ require ('dotenv').config();
 const { MongoClient, ServerApiVersion, ObjectId} = require('mongodb');
 //for jwt token
 const jwt = require('jsonwebtoken');
+//for stripe
+const stripe = require('stripe')(process.env.PAYMENT_SECRET_KEY)
 
+//mail
+const nodemailer = require('nodemailer')
 const port = process.env.PORT || 5000;
 //const datas = require('./data/rooms.json');
 
@@ -36,6 +40,53 @@ const verifyJWT = (req, res, next) => {
     next();
   })
 }
+
+
+
+
+// Send Email
+const sendMail = (emailData, emailAddress) => {
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.PASS,
+    },
+  })
+
+  // verify connection configuration
+  transporter.verify(function (error, success) {
+    if (error) {
+      console.log(error)
+    } else {
+      console.log('Server is ready to take our messages')
+    }
+  })
+
+  const mailOptions = {
+    from: process.env.EMAIL,
+    to: emailAddress,
+    subject: emailData?.subject,
+    html: `<p>${emailData?.message}</p>`,
+  }
+
+  transporter.sendMail(mailOptions, function (error, info) {
+    if (error) {
+      console.log(error)
+    } else {
+      console.log('Email sent: ' + info.response)
+    }
+  })
+}
+
+
+
+
+
+
+
+
+
 //  mongodb user and pass
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.aatv5yk.mongodb.net/?retryWrites=true&w=majority`;
 
@@ -62,6 +113,7 @@ async function run() {
 const contactCollection = client.db('aircnc').collection('contacts');
 const usersCollection = client.db("aircnc").collection("users");
 const roomsCollection = client.db('aircnc').collection('rooms')
+const bookingsCollection = client.db('aircnc').collection('bookings')
 
 
 
@@ -235,6 +287,114 @@ if (req.query?.email) {
     res.send(result)
   })
 
+//*---------------------------bookings--------------------------*
+
+// Get bookings for guest
+app.get('/bookings', async (req, res) => {
+  const email = req.query.email
+
+  if (!email) {
+    res.send([])
+  }
+  const query = { 'guest.email': email }
+  const result = await bookingsCollection.find(query).toArray()
+  res.send(result)
+})
+
+// Get bookings for host
+app.get('/bookings', async (req, res) => {
+  const email = req.query.email
+
+  if (!email) {
+    res.send([])
+  }
+  const query = { host: email }
+  const result = await bookingsCollection.find(query).toArray()
+  res.send(result)
+})
+
+// create payment intent
+app.post('/create-payment-intent', verifyJWT, async (req, res) => {
+  const { price } = req.body
+  const amount = parseFloat(price) * 100
+  if (!price) return
+  const paymentIntent = await stripe.paymentIntents.create({
+    amount: amount,
+    currency: 'usd',
+    payment_method_types: ['card'],
+  })
+
+  res.send({
+    clientSecret: paymentIntent.client_secret,
+  })
+})
+
+// Save a booking in database
+app.post('/bookings', async (req, res) => {
+  const booking = req.body
+  const result = await bookingsCollection.insertOne(booking)
+  if (result.insertedId) {
+    // Send confirmation email to guest
+    sendMail(
+        {
+            subject: 'Booking Successful at Aircncl!',
+            message: `
+                <img src="https://i.ibb.co/72RXy2H/favicon.png" alt="Company Logo" width="150" height="100">
+                <h1>Booking Successful!</h1>
+                <p>Thank you for choosing Aircnc website. Your booking details are:</p>
+                <img src=" ${booking.image}" alt="image" width="200" height="100">
+                <ul>
+                    <li>Booking Id: ${result?.insertedId}</li>
+                    <li>TransactionId: ${booking.transactionId}</li>
+                    <li>Location ${booking.location}</li> 
+                    <li>Price:${booking.price}</li> 
+                </ul>
+                <p>We look forward to hosting you!</p>
+            `,
+        },
+        booking?.guest?.email
+    )
+
+    // Send confirmation email to host
+    sendMail(
+        {
+            subject: 'Your room at  Aircnc got booked!',
+            message: `
+                <img src="https://i.ibb.co/72RXy2H/favicon.png" alt="Company Logo" width="200" height="100">
+                <h1>Your room got booked!</h1>
+                <p>Congratulations! Your room has been booked. Here are the details:</p>
+                <img src= ${booking.image} alt="image" width="200" height="100">
+
+                <ul>
+                    <li>Booking Id: ${result?.insertedId}</li>
+                    <li>TransactionId: ${booking.transactionId}</li>
+                    <li>Location: ${booking.location}</li>  
+                    <li>Price: ${booking.price}</li> 
+                    <li>Booked by -${booking.guest.name}</li>
+                    <img src= ${booking.guest.image} alt="image" width="150" height="100">
+                </ul>
+                <p>Check your dashboard for more information.</p>
+                <p>We appreciate your business!</p>
+            `,
+        },
+       
+
+      booking?.host
+    )
+  }
+  console.log(result)
+  res.send(result)
+})
+ 
+
+    // delete a booking
+
+    app.delete('/bookings/:id', async (req, res) => {
+      const id = req.params.id
+      const query = { _id: new ObjectId(id) }
+      const result = await bookingsCollection.deleteOne(query)
+      res.send(result)
+    })
 
 //*---------------------------contacts--------------------------*
 
