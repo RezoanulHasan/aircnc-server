@@ -287,9 +287,25 @@ if (req.query?.email) {
     res.send(result)
   })
 
+
+   // update room status after booking 
+   app.patch('/rooms/status/:id', async (req, res) => {
+    const id = req.params.id
+    const status = req.body.status
+    const query = { _id: new ObjectId(id) }
+    const updateDoc = {
+      $set: {
+        booked: status,
+      },
+    }
+    const update = await roomsCollection.updateOne(query, updateDoc)
+    res.send(update)
+  })
+
+
 //*---------------------------bookings--------------------------*
 
-// Get bookings for guest
+//  for guest
 app.get('/bookings', async (req, res) => {
   const email = req.query.email
 
@@ -301,7 +317,7 @@ app.get('/bookings', async (req, res) => {
   res.send(result)
 })
 
-// Get bookings for host
+// for host
 app.get('/bookings', async (req, res) => {
   const email = req.query.email
 
@@ -329,7 +345,7 @@ app.post('/create-payment-intent', verifyJWT, async (req, res) => {
   })
 })
 
-// Save a booking in database
+//  booking info in database
 app.post('/bookings', async (req, res) => {
   const booking = req.body
   const result = await bookingsCollection.insertOne(booking)
@@ -346,8 +362,11 @@ app.post('/bookings', async (req, res) => {
                 <ul>
                     <li>Booking Id: ${result?.insertedId}</li>
                     <li>TransactionId: ${booking.transactionId}</li>
-                    <li>Location ${booking.location}</li> 
+                    <li>Location :${booking.location}</li> 
                     <li>Price:${booking.price}</li> 
+                    <li>Host name:${booking.hostname}</li> 
+                    <li>Host Email :${booking.host}</li> 
+             
                 </ul>
                 <p>We look forward to hosting you!</p>
             `,
@@ -371,7 +390,7 @@ app.post('/bookings', async (req, res) => {
                     <li>Location: ${booking.location}</li>  
                     <li>Price: ${booking.price}</li> 
                     <li>Booked by -${booking.guest.name}</li>
-                    <img src= ${booking.guest.image} alt="image" width="150" height="100">
+                    <img src= ${booking.guest.email} alt="image" width="150" height="100">
                 </ul>
                 <p>Check your dashboard for more information.</p>
                 <p>We appreciate your business!</p>
@@ -387,7 +406,7 @@ app.post('/bookings', async (req, res) => {
 })
  
 
-    // delete a booking
+    // delete  booking by id
 
     app.delete('/bookings/:id', async (req, res) => {
       const id = req.params.id
@@ -425,6 +444,29 @@ app.post('/bookings', async (req, res) => {
   
   })
   
+
+
+
+
+
+
+  app.get('/admin-stats', verifyJWT, verifyAdmin, async (req, res) => {
+    const users = await usersCollection.estimatedDocumentCount();
+    const rooms = await roomsCollection.estimatedDocumentCount();
+    const booking = await bookingsCollection.estimatedDocumentCount();
+    const bookings = await bookingsCollection.find().toArray();
+    const revenue = bookings.reduce((sum, booking) => sum + parseFloat(booking.price), 0);
+
+    res.send({
+      revenue,
+      users,
+      rooms,
+      booking,
+    
+
+    })
+  })
+
 
 
     // Send a ping to confirm a successful connection
