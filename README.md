@@ -1,5 +1,5 @@
-# website name :Aircnc
-## Type: Booking website.
+# Website Name: Aircnc
+## Type: Booking Website
 
 # [Live Website Link](https://aircnc-965be.firebaseapp.com/)
-# [client git link ](https://github.com/RezoanulHasan/aircnc-client)
+# [Client Git Link ](https://github.com/RezoanulHasan/aircnc-client)
